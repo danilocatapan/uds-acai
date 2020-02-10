@@ -1,0 +1,4931 @@
+{
+	"info": {
+		"_postman_id": "ac5e954f-0f6d-4159-bf71-00b033421c1b",
+		"name": "UDS - Teste de desenvolvimento 2020",
+		"description": "Açai\n\nContact Support:\n Name: Danilo Catapan\n Email: dcatapan@gmail.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api/v1",
+			"item": [
+				{
+					"name": "acai",
+					"item": [
+						{
+							"name": "Exibir todos os açais",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/acai",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"acai"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai"
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n {\n  \"acaiCustomization\": {\n   \"acai\": {\n    \"acaiCustomization\": {\n     \"acai\": {\n      \"acaiCustomization\": {\n       \"acai\": {\n        \"acaiCustomization\": {\n         \"acai\": {\n          \"acaiCustomization\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"flavor\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"id\": \"<long>\",\n          \"size\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n         },\n         \"customization\": {\n          \"additionalPreparationTime\": \"<integer>\",\n          \"additionalPrice\": \"<number>\",\n          \"description\": \"<string>\",\n          \"id\": \"<long>\"\n         },\n         \"id\": {\n          \"acaiId\": \"<long>\",\n          \"customizationId\": \"<long>\"\n         }\n        },\n        \"flavor\": {\n         \"additionalPreparationTime\": \"<integer>\",\n         \"description\": \"<string>\",\n         \"id\": \"<long>\"\n        },\n        \"id\": \"<long>\",\n        \"size\": {\n         \"description\": \"<string>\",\n         \"id\": \"<long>\",\n         \"preparationTime\": \"<integer>\",\n         \"price\": \"<number>\"\n        }\n       },\n       \"customization\": {\n        \"additionalPreparationTime\": \"<integer>\",\n        \"additionalPrice\": \"<number>\",\n        \"description\": \"<string>\",\n        \"id\": \"<long>\"\n       },\n       \"id\": {\n        \"acaiId\": \"<long>\",\n        \"customizationId\": \"<long>\"\n       }\n      },\n      \"flavor\": {\n       \"additionalPreparationTime\": \"<integer>\",\n       \"description\": \"<string>\",\n       \"id\": \"<long>\"\n      },\n      \"id\": \"<long>\",\n      \"size\": {\n       \"description\": \"<string>\",\n       \"id\": \"<long>\",\n       \"preparationTime\": \"<integer>\",\n       \"price\": \"<number>\"\n      }\n     },\n     \"customization\": {\n      \"additionalPreparationTime\": \"<integer>\",\n      \"additionalPrice\": \"<number>\",\n      \"description\": \"<string>\",\n      \"id\": \"<long>\"\n     },\n     \"id\": {\n      \"acaiId\": \"<long>\",\n      \"customizationId\": \"<long>\"\n     }\n    },\n    \"flavor\": {\n     \"additionalPreparationTime\": \"<integer>\",\n     \"description\": \"<string>\",\n     \"id\": \"<long>\"\n    },\n    \"id\": \"<long>\",\n    \"size\": {\n     \"description\": \"<string>\",\n     \"id\": \"<long>\",\n     \"preparationTime\": \"<integer>\",\n     \"price\": \"<number>\"\n    }\n   },\n   \"customization\": {\n    \"additionalPreparationTime\": \"<integer>\",\n    \"additionalPrice\": \"<number>\",\n    \"description\": \"<string>\",\n    \"id\": \"<long>\"\n   },\n   \"id\": {\n    \"acaiId\": \"<long>\",\n    \"customizationId\": \"<long>\"\n   }\n  },\n  \"flavor\": {\n   \"additionalPreparationTime\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"id\": \"<long>\"\n  },\n  \"id\": \"<long>\",\n  \"size\": {\n   \"description\": \"<string>\",\n   \"id\": \"<long>\",\n   \"preparationTime\": \"<integer>\",\n   \"price\": \"<number>\"\n  }\n },\n {\n  \"acaiCustomization\": {\n   \"acai\": {\n    \"acaiCustomization\": {\n     \"acai\": {\n      \"acaiCustomization\": {\n       \"acai\": {\n        \"acaiCustomization\": {\n         \"acai\": {\n          \"acaiCustomization\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"flavor\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"id\": \"<long>\",\n          \"size\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n         },\n         \"customization\": {\n          \"additionalPreparationTime\": \"<integer>\",\n          \"additionalPrice\": \"<number>\",\n          \"description\": \"<string>\",\n          \"id\": \"<long>\"\n         },\n         \"id\": {\n          \"acaiId\": \"<long>\",\n          \"customizationId\": \"<long>\"\n         }\n        },\n        \"flavor\": {\n         \"additionalPreparationTime\": \"<integer>\",\n         \"description\": \"<string>\",\n         \"id\": \"<long>\"\n        },\n        \"id\": \"<long>\",\n        \"size\": {\n         \"description\": \"<string>\",\n         \"id\": \"<long>\",\n         \"preparationTime\": \"<integer>\",\n         \"price\": \"<number>\"\n        }\n       },\n       \"customization\": {\n        \"additionalPreparationTime\": \"<integer>\",\n        \"additionalPrice\": \"<number>\",\n        \"description\": \"<string>\",\n        \"id\": \"<long>\"\n       },\n       \"id\": {\n        \"acaiId\": \"<long>\",\n        \"customizationId\": \"<long>\"\n       }\n      },\n      \"flavor\": {\n       \"additionalPreparationTime\": \"<integer>\",\n       \"description\": \"<string>\",\n       \"id\": \"<long>\"\n      },\n      \"id\": \"<long>\",\n      \"size\": {\n       \"description\": \"<string>\",\n       \"id\": \"<long>\",\n       \"preparationTime\": \"<integer>\",\n       \"price\": \"<number>\"\n      }\n     },\n     \"customization\": {\n      \"additionalPreparationTime\": \"<integer>\",\n      \"additionalPrice\": \"<number>\",\n      \"description\": \"<string>\",\n      \"id\": \"<long>\"\n     },\n     \"id\": {\n      \"acaiId\": \"<long>\",\n      \"customizationId\": \"<long>\"\n     }\n    },\n    \"flavor\": {\n     \"additionalPreparationTime\": \"<integer>\",\n     \"description\": \"<string>\",\n     \"id\": \"<long>\"\n    },\n    \"id\": \"<long>\",\n    \"size\": {\n     \"description\": \"<string>\",\n     \"id\": \"<long>\",\n     \"preparationTime\": \"<integer>\",\n     \"price\": \"<number>\"\n    }\n   },\n   \"customization\": {\n    \"additionalPreparationTime\": \"<integer>\",\n    \"additionalPrice\": \"<number>\",\n    \"description\": \"<string>\",\n    \"id\": \"<long>\"\n   },\n   \"id\": {\n    \"acaiId\": \"<long>\",\n    \"customizationId\": \"<long>\"\n   }\n  },\n  \"flavor\": {\n   \"additionalPreparationTime\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"id\": \"<long>\"\n  },\n  \"id\": \"<long>\",\n  \"size\": {\n   \"description\": \"<string>\",\n   \"id\": \"<long>\",\n   \"preparationTime\": \"<integer>\",\n   \"price\": \"<number>\"\n  }\n }\n]"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai"
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai"
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Criar um novo açai",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/acai/create/:sizeId/:flavorId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"acai",
+										"create",
+										":sizeId",
+										":flavorId"
+									],
+									"variable": [
+										{
+											"key": "flavorId",
+											"value": "<string>",
+											"description": "flavorId"
+										},
+										{
+											"key": "sizeId",
+											"value": "<string>",
+											"description": "sizeId"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/create/:sizeId/:flavorId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"create",
+												":sizeId",
+												":flavorId"
+											],
+											"variable": [
+												{
+													"key": "sizeId"
+												},
+												{
+													"key": "flavorId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/create/:sizeId/:flavorId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"create",
+												":sizeId",
+												":flavorId"
+											],
+											"variable": [
+												{
+													"key": "sizeId"
+												},
+												{
+													"key": "flavorId"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/create/:sizeId/:flavorId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"create",
+												":sizeId",
+												":flavorId"
+											],
+											"variable": [
+												{
+													"key": "sizeId"
+												},
+												{
+													"key": "flavorId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"acaiCustomization\": {\n  \"acai\": {\n   \"acaiCustomization\": {\n    \"acai\": {\n     \"acaiCustomization\": {\n      \"acai\": {\n       \"acaiCustomization\": {\n        \"acai\": {\n         \"acaiCustomization\": {\n          \"acai\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"customization\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"id\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n         },\n         \"flavor\": {\n          \"additionalPreparationTime\": \"<integer>\",\n          \"description\": \"<string>\",\n          \"id\": \"<long>\"\n         },\n         \"id\": \"<long>\",\n         \"size\": {\n          \"description\": \"<string>\",\n          \"id\": \"<long>\",\n          \"preparationTime\": \"<integer>\",\n          \"price\": \"<number>\"\n         }\n        },\n        \"customization\": {\n         \"additionalPreparationTime\": \"<integer>\",\n         \"additionalPrice\": \"<number>\",\n         \"description\": \"<string>\",\n         \"id\": \"<long>\"\n        },\n        \"id\": {\n         \"acaiId\": \"<long>\",\n         \"customizationId\": \"<long>\"\n        }\n       },\n       \"flavor\": {\n        \"additionalPreparationTime\": \"<integer>\",\n        \"description\": \"<string>\",\n        \"id\": \"<long>\"\n       },\n       \"id\": \"<long>\",\n       \"size\": {\n        \"description\": \"<string>\",\n        \"id\": \"<long>\",\n        \"preparationTime\": \"<integer>\",\n        \"price\": \"<number>\"\n       }\n      },\n      \"customization\": {\n       \"additionalPreparationTime\": \"<integer>\",\n       \"additionalPrice\": \"<number>\",\n       \"description\": \"<string>\",\n       \"id\": \"<long>\"\n      },\n      \"id\": {\n       \"acaiId\": \"<long>\",\n       \"customizationId\": \"<long>\"\n      }\n     },\n     \"flavor\": {\n      \"additionalPreparationTime\": \"<integer>\",\n      \"description\": \"<string>\",\n      \"id\": \"<long>\"\n     },\n     \"id\": \"<long>\",\n     \"size\": {\n      \"description\": \"<string>\",\n      \"id\": \"<long>\",\n      \"preparationTime\": \"<integer>\",\n      \"price\": \"<number>\"\n     }\n    },\n    \"customization\": {\n     \"additionalPreparationTime\": \"<integer>\",\n     \"additionalPrice\": \"<number>\",\n     \"description\": \"<string>\",\n     \"id\": \"<long>\"\n    },\n    \"id\": {\n     \"acaiId\": \"<long>\",\n     \"customizationId\": \"<long>\"\n    }\n   },\n   \"flavor\": {\n    \"additionalPreparationTime\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"id\": \"<long>\"\n   },\n   \"id\": \"<long>\",\n   \"size\": {\n    \"description\": \"<string>\",\n    \"id\": \"<long>\",\n    \"preparationTime\": \"<integer>\",\n    \"price\": \"<number>\"\n   }\n  },\n  \"customization\": {\n   \"additionalPreparationTime\": \"<integer>\",\n   \"additionalPrice\": \"<number>\",\n   \"description\": \"<string>\",\n   \"id\": \"<long>\"\n  },\n  \"id\": {\n   \"acaiId\": \"<long>\",\n   \"customizationId\": \"<long>\"\n  }\n },\n \"flavor\": {\n  \"additionalPreparationTime\": \"<integer>\",\n  \"description\": \"<string>\",\n  \"id\": \"<long>\"\n },\n \"id\": \"<long>\",\n \"size\": {\n  \"description\": \"<string>\",\n  \"id\": \"<long>\",\n  \"preparationTime\": \"<integer>\",\n  \"price\": \"<number>\"\n }\n}"
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/create/:sizeId/:flavorId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"create",
+												":sizeId",
+												":flavorId"
+											],
+											"variable": [
+												{
+													"key": "sizeId"
+												},
+												{
+													"key": "flavorId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Created",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/create/:sizeId/:flavorId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"create",
+												":sizeId",
+												":flavorId"
+											],
+											"variable": [
+												{
+													"key": "sizeId"
+												},
+												{
+													"key": "flavorId"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Deletar um açai pelo seu Id",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/acai/delete/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"acai",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "No Content",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Exibir um açai pelo seu Id",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/acai/find/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"acai",
+										"find",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n {\n  \"acaiCustomization\": {\n   \"acai\": {\n    \"acaiCustomization\": {\n     \"acai\": {\n      \"acaiCustomization\": {\n       \"acai\": {\n        \"acaiCustomization\": {\n         \"acai\": {\n          \"acaiCustomization\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"flavor\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"id\": \"<long>\",\n          \"size\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n         },\n         \"customization\": {\n          \"additionalPreparationTime\": \"<integer>\",\n          \"additionalPrice\": \"<number>\",\n          \"description\": \"<string>\",\n          \"id\": \"<long>\"\n         },\n         \"id\": {\n          \"acaiId\": \"<long>\",\n          \"customizationId\": \"<long>\"\n         }\n        },\n        \"flavor\": {\n         \"additionalPreparationTime\": \"<integer>\",\n         \"description\": \"<string>\",\n         \"id\": \"<long>\"\n        },\n        \"id\": \"<long>\",\n        \"size\": {\n         \"description\": \"<string>\",\n         \"id\": \"<long>\",\n         \"preparationTime\": \"<integer>\",\n         \"price\": \"<number>\"\n        }\n       },\n       \"customization\": {\n        \"additionalPreparationTime\": \"<integer>\",\n        \"additionalPrice\": \"<number>\",\n        \"description\": \"<string>\",\n        \"id\": \"<long>\"\n       },\n       \"id\": {\n        \"acaiId\": \"<long>\",\n        \"customizationId\": \"<long>\"\n       }\n      },\n      \"flavor\": {\n       \"additionalPreparationTime\": \"<integer>\",\n       \"description\": \"<string>\",\n       \"id\": \"<long>\"\n      },\n      \"id\": \"<long>\",\n      \"size\": {\n       \"description\": \"<string>\",\n       \"id\": \"<long>\",\n       \"preparationTime\": \"<integer>\",\n       \"price\": \"<number>\"\n      }\n     },\n     \"customization\": {\n      \"additionalPreparationTime\": \"<integer>\",\n      \"additionalPrice\": \"<number>\",\n      \"description\": \"<string>\",\n      \"id\": \"<long>\"\n     },\n     \"id\": {\n      \"acaiId\": \"<long>\",\n      \"customizationId\": \"<long>\"\n     }\n    },\n    \"flavor\": {\n     \"additionalPreparationTime\": \"<integer>\",\n     \"description\": \"<string>\",\n     \"id\": \"<long>\"\n    },\n    \"id\": \"<long>\",\n    \"size\": {\n     \"description\": \"<string>\",\n     \"id\": \"<long>\",\n     \"preparationTime\": \"<integer>\",\n     \"price\": \"<number>\"\n    }\n   },\n   \"customization\": {\n    \"additionalPreparationTime\": \"<integer>\",\n    \"additionalPrice\": \"<number>\",\n    \"description\": \"<string>\",\n    \"id\": \"<long>\"\n   },\n   \"id\": {\n    \"acaiId\": \"<long>\",\n    \"customizationId\": \"<long>\"\n   }\n  },\n  \"flavor\": {\n   \"additionalPreparationTime\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"id\": \"<long>\"\n  },\n  \"id\": \"<long>\",\n  \"size\": {\n   \"description\": \"<string>\",\n   \"id\": \"<long>\",\n   \"preparationTime\": \"<integer>\",\n   \"price\": \"<number>\"\n  }\n },\n {\n  \"acaiCustomization\": {\n   \"acai\": {\n    \"acaiCustomization\": {\n     \"acai\": {\n      \"acaiCustomization\": {\n       \"acai\": {\n        \"acaiCustomization\": {\n         \"acai\": {\n          \"acaiCustomization\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"flavor\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"id\": \"<long>\",\n          \"size\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n         },\n         \"customization\": {\n          \"additionalPreparationTime\": \"<integer>\",\n          \"additionalPrice\": \"<number>\",\n          \"description\": \"<string>\",\n          \"id\": \"<long>\"\n         },\n         \"id\": {\n          \"acaiId\": \"<long>\",\n          \"customizationId\": \"<long>\"\n         }\n        },\n        \"flavor\": {\n         \"additionalPreparationTime\": \"<integer>\",\n         \"description\": \"<string>\",\n         \"id\": \"<long>\"\n        },\n        \"id\": \"<long>\",\n        \"size\": {\n         \"description\": \"<string>\",\n         \"id\": \"<long>\",\n         \"preparationTime\": \"<integer>\",\n         \"price\": \"<number>\"\n        }\n       },\n       \"customization\": {\n        \"additionalPreparationTime\": \"<integer>\",\n        \"additionalPrice\": \"<number>\",\n        \"description\": \"<string>\",\n        \"id\": \"<long>\"\n       },\n       \"id\": {\n        \"acaiId\": \"<long>\",\n        \"customizationId\": \"<long>\"\n       }\n      },\n      \"flavor\": {\n       \"additionalPreparationTime\": \"<integer>\",\n       \"description\": \"<string>\",\n       \"id\": \"<long>\"\n      },\n      \"id\": \"<long>\",\n      \"size\": {\n       \"description\": \"<string>\",\n       \"id\": \"<long>\",\n       \"preparationTime\": \"<integer>\",\n       \"price\": \"<number>\"\n      }\n     },\n     \"customization\": {\n      \"additionalPreparationTime\": \"<integer>\",\n      \"additionalPrice\": \"<number>\",\n      \"description\": \"<string>\",\n      \"id\": \"<long>\"\n     },\n     \"id\": {\n      \"acaiId\": \"<long>\",\n      \"customizationId\": \"<long>\"\n     }\n    },\n    \"flavor\": {\n     \"additionalPreparationTime\": \"<integer>\",\n     \"description\": \"<string>\",\n     \"id\": \"<long>\"\n    },\n    \"id\": \"<long>\",\n    \"size\": {\n     \"description\": \"<string>\",\n     \"id\": \"<long>\",\n     \"preparationTime\": \"<integer>\",\n     \"price\": \"<number>\"\n    }\n   },\n   \"customization\": {\n    \"additionalPreparationTime\": \"<integer>\",\n    \"additionalPrice\": \"<number>\",\n    \"description\": \"<string>\",\n    \"id\": \"<long>\"\n   },\n   \"id\": {\n    \"acaiId\": \"<long>\",\n    \"customizationId\": \"<long>\"\n   }\n  },\n  \"flavor\": {\n   \"additionalPreparationTime\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"id\": \"<long>\"\n  },\n  \"id\": \"<long>\",\n  \"size\": {\n   \"description\": \"<string>\",\n   \"id\": \"<long>\",\n   \"preparationTime\": \"<integer>\",\n   \"price\": \"<number>\"\n  }\n }\n]"
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acai/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acai",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "acaicustomization",
+					"item": [
+						{
+							"name": "Criar uma nova personalização",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/acaicustomization/create/:acaiId/:customizationId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"acaicustomization",
+										"create",
+										":acaiId",
+										":customizationId"
+									],
+									"variable": [
+										{
+											"key": "acaiId",
+											"value": "<string>",
+											"description": "acaiId"
+										},
+										{
+											"key": "customizationId",
+											"value": "<string>",
+											"description": "customizationId"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Created",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/create/:acaiId/:customizationId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"create",
+												":acaiId",
+												":customizationId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												},
+												{
+													"key": "customizationId"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/create/:acaiId/:customizationId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"create",
+												":acaiId",
+												":customizationId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												},
+												{
+													"key": "customizationId"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/create/:acaiId/:customizationId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"create",
+												":acaiId",
+												":customizationId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												},
+												{
+													"key": "customizationId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/create/:acaiId/:customizationId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"create",
+												":acaiId",
+												":customizationId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												},
+												{
+													"key": "customizationId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"acai\": {\n  \"acaiCustomization\": {\n   \"acai\": {\n    \"acaiCustomization\": {\n     \"acai\": {\n      \"acaiCustomization\": {\n       \"acai\": {\n        \"acaiCustomization\": {\n         \"acai\": {\n          \"acaiCustomization\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"flavor\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"id\": \"<long>\",\n          \"size\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n         },\n         \"customization\": {\n          \"additionalPreparationTime\": \"<integer>\",\n          \"additionalPrice\": \"<number>\",\n          \"description\": \"<string>\",\n          \"id\": \"<long>\"\n         },\n         \"id\": {\n          \"acaiId\": \"<long>\",\n          \"customizationId\": \"<long>\"\n         }\n        },\n        \"flavor\": {\n         \"additionalPreparationTime\": \"<integer>\",\n         \"description\": \"<string>\",\n         \"id\": \"<long>\"\n        },\n        \"id\": \"<long>\",\n        \"size\": {\n         \"description\": \"<string>\",\n         \"id\": \"<long>\",\n         \"preparationTime\": \"<integer>\",\n         \"price\": \"<number>\"\n        }\n       },\n       \"customization\": {\n        \"additionalPreparationTime\": \"<integer>\",\n        \"additionalPrice\": \"<number>\",\n        \"description\": \"<string>\",\n        \"id\": \"<long>\"\n       },\n       \"id\": {\n        \"acaiId\": \"<long>\",\n        \"customizationId\": \"<long>\"\n       }\n      },\n      \"flavor\": {\n       \"additionalPreparationTime\": \"<integer>\",\n       \"description\": \"<string>\",\n       \"id\": \"<long>\"\n      },\n      \"id\": \"<long>\",\n      \"size\": {\n       \"description\": \"<string>\",\n       \"id\": \"<long>\",\n       \"preparationTime\": \"<integer>\",\n       \"price\": \"<number>\"\n      }\n     },\n     \"customization\": {\n      \"additionalPreparationTime\": \"<integer>\",\n      \"additionalPrice\": \"<number>\",\n      \"description\": \"<string>\",\n      \"id\": \"<long>\"\n     },\n     \"id\": {\n      \"acaiId\": \"<long>\",\n      \"customizationId\": \"<long>\"\n     }\n    },\n    \"flavor\": {\n     \"additionalPreparationTime\": \"<integer>\",\n     \"description\": \"<string>\",\n     \"id\": \"<long>\"\n    },\n    \"id\": \"<long>\",\n    \"size\": {\n     \"description\": \"<string>\",\n     \"id\": \"<long>\",\n     \"preparationTime\": \"<integer>\",\n     \"price\": \"<number>\"\n    }\n   },\n   \"customization\": {\n    \"additionalPreparationTime\": \"<integer>\",\n    \"additionalPrice\": \"<number>\",\n    \"description\": \"<string>\",\n    \"id\": \"<long>\"\n   },\n   \"id\": {\n    \"acaiId\": \"<long>\",\n    \"customizationId\": \"<long>\"\n   }\n  },\n  \"flavor\": {\n   \"additionalPreparationTime\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"id\": \"<long>\"\n  },\n  \"id\": \"<long>\",\n  \"size\": {\n   \"description\": \"<string>\",\n   \"id\": \"<long>\",\n   \"preparationTime\": \"<integer>\",\n   \"price\": \"<number>\"\n  }\n },\n \"customization\": {\n  \"additionalPreparationTime\": \"<integer>\",\n  \"additionalPrice\": \"<number>\",\n  \"description\": \"<string>\",\n  \"id\": \"<long>\"\n },\n \"id\": {\n  \"acaiId\": \"<long>\",\n  \"customizationId\": \"<long>\"\n }\n}"
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/create/:acaiId/:customizationId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"create",
+												":acaiId",
+												":customizationId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												},
+												{
+													"key": "customizationId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Deletar um açai pelo seu ID",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/acaicustomization/delete/:acaiId/:customizationId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"acaicustomization",
+										"delete",
+										":acaiId",
+										":customizationId"
+									],
+									"variable": [
+										{
+											"key": "acaiId",
+											"value": "<string>",
+											"description": "acaiId"
+										},
+										{
+											"key": "customizationId",
+											"value": "<string>",
+											"description": "customizationId"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/delete/:acaiId/:customizationId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"delete",
+												":acaiId",
+												":customizationId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												},
+												{
+													"key": "customizationId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/delete/:acaiId/:customizationId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"delete",
+												":acaiId",
+												":customizationId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												},
+												{
+													"key": "customizationId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/delete/:acaiId/:customizationId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"delete",
+												":acaiId",
+												":customizationId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												},
+												{
+													"key": "customizationId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "No Content",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/delete/:acaiId/:customizationId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"delete",
+												":acaiId",
+												":customizationId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												},
+												{
+													"key": "customizationId"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Exibir personalização pelo ID do acaí",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/acaicustomization/find/:acaiId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"acaicustomization",
+										"find",
+										":acaiId"
+									],
+									"variable": [
+										{
+											"key": "acaiId",
+											"value": "<string>",
+											"description": "acaiId"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/find/:acaiId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"find",
+												":acaiId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/find/:acaiId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"find",
+												":acaiId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/find/:acaiId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"find",
+												":acaiId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n {\n  \"acai\": {\n   \"acaiCustomization\": {\n    \"acai\": {\n     \"acaiCustomization\": {\n      \"acai\": {\n       \"acaiCustomization\": {\n        \"acai\": {\n         \"acaiCustomization\": {\n          \"acai\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"customization\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"id\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n         },\n         \"flavor\": {\n          \"additionalPreparationTime\": \"<integer>\",\n          \"description\": \"<string>\",\n          \"id\": \"<long>\"\n         },\n         \"id\": \"<long>\",\n         \"size\": {\n          \"description\": \"<string>\",\n          \"id\": \"<long>\",\n          \"preparationTime\": \"<integer>\",\n          \"price\": \"<number>\"\n         }\n        },\n        \"customization\": {\n         \"additionalPreparationTime\": \"<integer>\",\n         \"additionalPrice\": \"<number>\",\n         \"description\": \"<string>\",\n         \"id\": \"<long>\"\n        },\n        \"id\": {\n         \"acaiId\": \"<long>\",\n         \"customizationId\": \"<long>\"\n        }\n       },\n       \"flavor\": {\n        \"additionalPreparationTime\": \"<integer>\",\n        \"description\": \"<string>\",\n        \"id\": \"<long>\"\n       },\n       \"id\": \"<long>\",\n       \"size\": {\n        \"description\": \"<string>\",\n        \"id\": \"<long>\",\n        \"preparationTime\": \"<integer>\",\n        \"price\": \"<number>\"\n       }\n      },\n      \"customization\": {\n       \"additionalPreparationTime\": \"<integer>\",\n       \"additionalPrice\": \"<number>\",\n       \"description\": \"<string>\",\n       \"id\": \"<long>\"\n      },\n      \"id\": {\n       \"acaiId\": \"<long>\",\n       \"customizationId\": \"<long>\"\n      }\n     },\n     \"flavor\": {\n      \"additionalPreparationTime\": \"<integer>\",\n      \"description\": \"<string>\",\n      \"id\": \"<long>\"\n     },\n     \"id\": \"<long>\",\n     \"size\": {\n      \"description\": \"<string>\",\n      \"id\": \"<long>\",\n      \"preparationTime\": \"<integer>\",\n      \"price\": \"<number>\"\n     }\n    },\n    \"customization\": {\n     \"additionalPreparationTime\": \"<integer>\",\n     \"additionalPrice\": \"<number>\",\n     \"description\": \"<string>\",\n     \"id\": \"<long>\"\n    },\n    \"id\": {\n     \"acaiId\": \"<long>\",\n     \"customizationId\": \"<long>\"\n    }\n   },\n   \"flavor\": {\n    \"additionalPreparationTime\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"id\": \"<long>\"\n   },\n   \"id\": \"<long>\",\n   \"size\": {\n    \"description\": \"<string>\",\n    \"id\": \"<long>\",\n    \"preparationTime\": \"<integer>\",\n    \"price\": \"<number>\"\n   }\n  },\n  \"customization\": {\n   \"additionalPreparationTime\": \"<integer>\",\n   \"additionalPrice\": \"<number>\",\n   \"description\": \"<string>\",\n   \"id\": \"<long>\"\n  },\n  \"id\": {\n   \"acaiId\": \"<long>\",\n   \"customizationId\": \"<long>\"\n  }\n },\n {\n  \"acai\": {\n   \"acaiCustomization\": {\n    \"acai\": {\n     \"acaiCustomization\": {\n      \"acai\": {\n       \"acaiCustomization\": {\n        \"acai\": {\n         \"acaiCustomization\": {\n          \"acai\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"customization\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"id\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n         },\n         \"flavor\": {\n          \"additionalPreparationTime\": \"<integer>\",\n          \"description\": \"<string>\",\n          \"id\": \"<long>\"\n         },\n         \"id\": \"<long>\",\n         \"size\": {\n          \"description\": \"<string>\",\n          \"id\": \"<long>\",\n          \"preparationTime\": \"<integer>\",\n          \"price\": \"<number>\"\n         }\n        },\n        \"customization\": {\n         \"additionalPreparationTime\": \"<integer>\",\n         \"additionalPrice\": \"<number>\",\n         \"description\": \"<string>\",\n         \"id\": \"<long>\"\n        },\n        \"id\": {\n         \"acaiId\": \"<long>\",\n         \"customizationId\": \"<long>\"\n        }\n       },\n       \"flavor\": {\n        \"additionalPreparationTime\": \"<integer>\",\n        \"description\": \"<string>\",\n        \"id\": \"<long>\"\n       },\n       \"id\": \"<long>\",\n       \"size\": {\n        \"description\": \"<string>\",\n        \"id\": \"<long>\",\n        \"preparationTime\": \"<integer>\",\n        \"price\": \"<number>\"\n       }\n      },\n      \"customization\": {\n       \"additionalPreparationTime\": \"<integer>\",\n       \"additionalPrice\": \"<number>\",\n       \"description\": \"<string>\",\n       \"id\": \"<long>\"\n      },\n      \"id\": {\n       \"acaiId\": \"<long>\",\n       \"customizationId\": \"<long>\"\n      }\n     },\n     \"flavor\": {\n      \"additionalPreparationTime\": \"<integer>\",\n      \"description\": \"<string>\",\n      \"id\": \"<long>\"\n     },\n     \"id\": \"<long>\",\n     \"size\": {\n      \"description\": \"<string>\",\n      \"id\": \"<long>\",\n      \"preparationTime\": \"<integer>\",\n      \"price\": \"<number>\"\n     }\n    },\n    \"customization\": {\n     \"additionalPreparationTime\": \"<integer>\",\n     \"additionalPrice\": \"<number>\",\n     \"description\": \"<string>\",\n     \"id\": \"<long>\"\n    },\n    \"id\": {\n     \"acaiId\": \"<long>\",\n     \"customizationId\": \"<long>\"\n    }\n   },\n   \"flavor\": {\n    \"additionalPreparationTime\": \"<integer>\",\n    \"description\": \"<string>\",\n    \"id\": \"<long>\"\n   },\n   \"id\": \"<long>\",\n   \"size\": {\n    \"description\": \"<string>\",\n    \"id\": \"<long>\",\n    \"preparationTime\": \"<integer>\",\n    \"price\": \"<number>\"\n   }\n  },\n  \"customization\": {\n   \"additionalPreparationTime\": \"<integer>\",\n   \"additionalPrice\": \"<number>\",\n   \"description\": \"<string>\",\n   \"id\": \"<long>\"\n  },\n  \"id\": {\n   \"acaiId\": \"<long>\",\n   \"customizationId\": \"<long>\"\n  }\n }\n]"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/acaicustomization/find/:acaiId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"acaicustomization",
+												"find",
+												":acaiId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "customization",
+					"item": [
+						{
+							"name": "Exibir todos as personalizações",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/customization",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"customization"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n {\n  \"descrição\": \"<string>\",\n  \"id\": \"<long>\",\n  \"preço do adicional\": \"<number>\",\n  \"tempo de prepraração adicional\": \"<integer>\"\n },\n {\n  \"descrição\": \"<string>\",\n  \"id\": \"<long>\",\n  \"preço do adicional\": \"<number>\",\n  \"tempo de prepraração adicional\": \"<integer>\"\n }\n]"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization"
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization"
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization"
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Criar uma nova personalização",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"descrição\": \"<string>\",\n    \"id\": \"<long>\",\n    \"preço do adicional\": \"<number>\",\n    \"tempo de prepraração adicional\": \"<integer>\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/customization/create/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"customization",
+										"create",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Created",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"descrição\": \"<string>\",\n \"id\": \"<long>\",\n \"preço do adicional\": \"<number>\",\n \"tempo de prepraração adicional\": \"<integer>\"\n}"
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Deletar uma personalização pelo seu ID",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/customization/delete/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"customization",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "No Content",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Exibir uma personalização pelo seu ID",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/customization/find/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"customization",
+										"find",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"descrição\": \"<string>\",\n \"id\": \"<long>\",\n \"preço do adicional\": \"<number>\",\n \"tempo de prepraração adicional\": \"<integer>\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Atualizar uma personalização",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"descrição\": \"<string>\",\n    \"id\": \"<long>\",\n    \"preço do adicional\": \"<number>\",\n    \"tempo de prepraração adicional\": \"<integer>\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/customization/update/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"customization",
+										"update",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"descrição\": \"<string>\",\n \"id\": \"<long>\",\n \"preço do adicional\": \"<number>\",\n \"tempo de prepraração adicional\": \"<integer>\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Created",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/customization/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"customization",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "flavor",
+					"item": [
+						{
+							"name": "Exibir todos os sabores",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/flavor",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"flavor"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n {\n  \"descrição\": \"<string>\",\n  \"id\": \"<long>\",\n  \"tempo de prepraração adicional\": \"<integer>\"\n },\n {\n  \"descrição\": \"<string>\",\n  \"id\": \"<long>\",\n  \"tempo de prepraração adicional\": \"<integer>\"\n }\n]"
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor"
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor"
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor"
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Criar um novo sabor",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"descrição\": \"<string>\",\n    \"id\": \"<long>\",\n    \"tempo de prepraração adicional\": \"<integer>\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/flavor/create/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"flavor",
+										"create",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Created",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"descrição\": \"<string>\",\n \"id\": \"<long>\",\n \"tempo de prepraração adicional\": \"<integer>\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Deletar um sabor pelo seu ID",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/flavor/delete/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"flavor",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "No Content",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Exibir um sabor pelo seu ID",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/flavor/find/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"flavor",
+										"find",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"descrição\": \"<string>\",\n \"id\": \"<long>\",\n \"tempo de prepraração adicional\": \"<integer>\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Atualizar um sabor",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"descrição\": \"<string>\",\n    \"id\": \"<long>\",\n    \"tempo de prepraração adicional\": \"<integer>\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/flavor/update/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"flavor",
+										"update",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Created",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"descrição\": \"<string>\",\n \"id\": \"<long>\",\n \"tempo de prepraração adicional\": \"<integer>\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/flavor/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"flavor",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "order",
+					"item": [
+						{
+							"name": "Exibir os totalizadores do pedido por Id",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/order/amount/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"order",
+										"amount",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/amount/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"amount",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/amount/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"amount",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"id\": \"<long>\",\n \"preço final\": \"<number>\",\n \"tempo de preparação\": \"<integer>\"\n}"
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/amount/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"amount",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/amount/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"amount",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Criar um novo pedido",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/order/create/:acaiId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"order",
+										"create",
+										":acaiId"
+									],
+									"variable": [
+										{
+											"key": "acaiId",
+											"value": "<string>",
+											"description": "acaiId"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/create/:acaiId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"create",
+												":acaiId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/create/:acaiId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"create",
+												":acaiId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Created",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/create/:acaiId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"create",
+												":acaiId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												}
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/create/:acaiId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"create",
+												":acaiId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"acai\": {\n  \"acaiCustomization\": {\n   \"acai\": {\n    \"acaiCustomization\": {\n     \"acai\": {\n      \"acaiCustomization\": {\n       \"acai\": {\n        \"acaiCustomization\": {\n         \"acai\": {\n          \"acaiCustomization\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"flavor\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"id\": \"<long>\",\n          \"size\": {\n           \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          }\n         },\n         \"customization\": {\n          \"additionalPreparationTime\": \"<integer>\",\n          \"additionalPrice\": \"<number>\",\n          \"description\": \"<string>\",\n          \"id\": \"<long>\"\n         },\n         \"id\": {\n          \"acaiId\": \"<long>\",\n          \"customizationId\": \"<long>\"\n         }\n        },\n        \"flavor\": {\n         \"additionalPreparationTime\": \"<integer>\",\n         \"description\": \"<string>\",\n         \"id\": \"<long>\"\n        },\n        \"id\": \"<long>\",\n        \"size\": {\n         \"description\": \"<string>\",\n         \"id\": \"<long>\",\n         \"preparationTime\": \"<integer>\",\n         \"price\": \"<number>\"\n        }\n       },\n       \"customization\": {\n        \"additionalPreparationTime\": \"<integer>\",\n        \"additionalPrice\": \"<number>\",\n        \"description\": \"<string>\",\n        \"id\": \"<long>\"\n       },\n       \"id\": {\n        \"acaiId\": \"<long>\",\n        \"customizationId\": \"<long>\"\n       }\n      },\n      \"flavor\": {\n       \"additionalPreparationTime\": \"<integer>\",\n       \"description\": \"<string>\",\n       \"id\": \"<long>\"\n      },\n      \"id\": \"<long>\",\n      \"size\": {\n       \"description\": \"<string>\",\n       \"id\": \"<long>\",\n       \"preparationTime\": \"<integer>\",\n       \"price\": \"<number>\"\n      }\n     },\n     \"customization\": {\n      \"additionalPreparationTime\": \"<integer>\",\n      \"additionalPrice\": \"<number>\",\n      \"description\": \"<string>\",\n      \"id\": \"<long>\"\n     },\n     \"id\": {\n      \"acaiId\": \"<long>\",\n      \"customizationId\": \"<long>\"\n     }\n    },\n    \"flavor\": {\n     \"additionalPreparationTime\": \"<integer>\",\n     \"description\": \"<string>\",\n     \"id\": \"<long>\"\n    },\n    \"id\": \"<long>\",\n    \"size\": {\n     \"description\": \"<string>\",\n     \"id\": \"<long>\",\n     \"preparationTime\": \"<integer>\",\n     \"price\": \"<number>\"\n    }\n   },\n   \"customization\": {\n    \"additionalPreparationTime\": \"<integer>\",\n    \"additionalPrice\": \"<number>\",\n    \"description\": \"<string>\",\n    \"id\": \"<long>\"\n   },\n   \"id\": {\n    \"acaiId\": \"<long>\",\n    \"customizationId\": \"<long>\"\n   }\n  },\n  \"flavor\": {\n   \"additionalPreparationTime\": \"<integer>\",\n   \"description\": \"<string>\",\n   \"id\": \"<long>\"\n  },\n  \"id\": \"<long>\",\n  \"size\": {\n   \"description\": \"<string>\",\n   \"id\": \"<long>\",\n   \"preparationTime\": \"<integer>\",\n   \"price\": \"<number>\"\n  }\n },\n \"amount\": \"<number>\",\n \"formattedId\": \"<string>\",\n \"id\": \"<long>\",\n \"preparationTime\": \"<integer>\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/create/:acaiId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"create",
+												":acaiId"
+											],
+											"variable": [
+												{
+													"key": "acaiId"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Exibir as customizações do pedido por Id",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/order/customization/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"order",
+										"customization",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/customization/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"customization",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/customization/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"customization",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/customization/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"customization",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/customization/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"customization",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n [\n  \"<object>\",\n  \"<object>\"\n ],\n [\n  \"<object>\",\n  \"<object>\"\n ]\n]"
+								}
+							]
+						},
+						{
+							"name": "Deletar um pedido pelo seu Id",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/order/delete/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"order",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "No Content",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Exibir o pedido resumido por Id",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/order/resume/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"order",
+										"resume",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/resume/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"resume",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n [\n  \"<object>\",\n  \"<object>\"\n ],\n [\n  \"<object>\",\n  \"<object>\"\n ]\n]"
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/resume/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"resume",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/resume/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"resume",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/order/resume/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"order",
+												"resume",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "size",
+					"item": [
+						{
+							"name": "Exibir todos os tamanhos",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/size",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"size"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "[\n {\n  \"descrição\": \"<string>\",\n  \"id\": \"<long>\",\n  \"preço\": \"<number>\",\n  \"tempo de prepraração\": \"<integer>\"\n },\n {\n  \"descrição\": \"<string>\",\n  \"id\": \"<long>\",\n  \"preço\": \"<number>\",\n  \"tempo de prepraração\": \"<integer>\"\n }\n]"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size"
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size"
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size"
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Criar um novo tamanho",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"descrição\": \"<string>\",\n    \"id\": \"<long>\",\n    \"preço\": \"<number>\",\n    \"tempo de prepraração\": \"<integer>\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/size/create/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"size",
+										"create",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"descrição\": \"<string>\",\n \"id\": \"<long>\",\n \"preço\": \"<number>\",\n \"tempo de prepraração\": \"<integer>\"\n}"
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Created",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/create/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"create",
+												""
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Deletar um tamanho pelo seu ID",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/size/delete/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"size",
+										"delete",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "No Content",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "No Content",
+									"code": 204,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "*/*"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/delete/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"delete",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "Exibir um tamanho pelo seu ID",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/size/find/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"size",
+										"find",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "<long>",
+											"description": "id"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/find/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"find",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"descrição\": \"<string>\",\n \"id\": \"<long>\",\n \"preço\": \"<number>\",\n \"tempo de prepraração\": \"<integer>\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Atualizar um tamanho",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"descrição\": \"<string>\",\n    \"id\": \"<long>\",\n    \"preço\": \"<number>\",\n    \"tempo de prepraração\": \"<integer>\"\n}"
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/v1/size/update/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"size",
+										"update",
+										""
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "OK",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n \"descrição\": \"<string>\",\n \"id\": \"<long>\",\n \"preço\": \"<number>\",\n \"tempo de prepraração\": \"<integer>\"\n}"
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Created",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/v1/size/update/",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"v1",
+												"size",
+												"update",
+												""
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"variable": [
+		{
+			"id": "baseUrl",
+			"key": "baseUrl",
+			"value": "//localhost:8080/",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

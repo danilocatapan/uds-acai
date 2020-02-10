@@ -1,0 +1,42 @@
+version: '3.4'
+services:
+  db:
+    image: catapandanilo/mysql-uds-acai
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      TZ: America/Sao_Paulo
+      MYSQL_ROOT_PASSWORD: docker
+      MYSQL_USER: docker
+      MYSQL_PASSWORD: docker
+      MYSQL_DATABASE: uds_acai
+    ports:
+      - "3308:3306"
+    networks:
+      - network
+  uds-acai:
+    image: catapandanilo/uds-acai
+    restart: always
+    build: ./udsAcai
+    working_dir: /udsAcai
+    environment:
+      TZ: America/Sao_Paulo
+      SPRING_BOOT_ENVIRONMENT: Production
+    volumes:
+      - ./udsAcai:/udsAcai
+      - ~/.m2:/root/.m2
+    ports:
+      - "8080:8080"
+    command: mvn clean spring-boot:run
+    links:
+      - db
+    depends_on:
+      - db
+    networks:
+      - network
+networks:
+    network:
+        driver: bridge
